@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body class="body">
+    <div class="container">
+      <div class="content">
+        <!--pinterest logo-->
+        <img src="https://i.pinimg.com/736x/0f/d8/d4/0fd8d47a73276bcde51b71230df9879e.jpg" alt="pin logo" class="img1" />
+        <p class="header">Make Account in to see more</p>
+
+        <form action="/register" method="post">
+          <input type="text" name="fullName" placeholder="FullName" class="detail" /><br />
+          <input type="text" name="username" placeholder="username" class="detail" /><br />
+          <input type="password" name="password" placeholder="password" class="detail" />
+          <input type="email" name="email" placeholder="Email" class="detail" /><br/>
+          <input type="submit" name="submit" value="Register Account" class="btn int" />
+        </form>
+        <footer>
+          <hr />
+          <p>Already have an Account ? <a href="/login">Log In</a></p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
